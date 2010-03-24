@@ -1,0 +1,120 @@
+----------------------------
+AI DAWN (the dawn of the AI)
+----------------------------
+OpenFrameworks Interactive experience for iPhone based on the "Minimal Networks" interactive from the Core Labs Hack Lab
+
+----------
+Change log
+----------
+
+v.0.1
+- added to the github repository
+
+v.0.1.1
+- added stage class
+
+v.0.1.2
+- added methods to stage class & modified testApp
+
+v.0.1.2.1
+- clean code
+
+v.0.1.3
+- deleted stage class
+- added stageManager class and stageOne class
+- added github_steps text file
+
+v.0.1.4
+- changed the way the stages are called
+- added the "setStage" function to sound class
+- added stageTwo (but not differenciated from stageOne)
+- added globalcounter to count all the clicks (not only the stage ones)
+- added menu items for new counter
+
+v.0.1.5
+- added stageThree with cube rotation and alpha blending
+- other minor changes regardeless last stage addition
+
+v.0.1.6
+- added cube class
+- modified stageThree to use cube class
+
+v.0.1.7
+- added circle class
+- modified stageTwo to use circle class
+- modified rotation from GLrotate to ofVect3f rotate
+
+v.0.1.8
+- modified rotation from ofVect3f to GLRotate
+- rotation in stageThree not in cube class
+- use module to change between the 3 levels
+
+v0.1.9
+- added introStage class
+- modified some sound events to match the new class
+
+v.0.1.9.1
+- added bso3 and bso4 wav files to sound.mm
+- added texts for each level in introStage.mm
+- rez is in "Hawking mode"
+
+v.0.2.1
+- added clock class
+
+v.0.2.2
+- modified clock class added countdown
+- modified itensMenu class
+- modified testApp with countdown
+
+v.0.2.3
+- added UploadManager class
+- added new event sound in sound class
+
+v.0.2.4
+- modified introStage with GAME OVER stage
+- implemented uploadManager class into introStage class
+
+v.0.2.5
+- modified uploaderManager class and testApp class.
+- corrected send only once the score and detect error conection
+
+v.0.2.6
+- added keyboardManager
+
+v.0.2.7
+- added button class
+- added keyboard with space, erase & send functions
+- modified testApp
+
+v.0.2.8
+- cleaned code for circle, clock, cube, initMenu, itemsMenu, introStage, newlevel, plane, sound, stageManager, stageOne classes
+
+v.0.2.9
+- fixed problem into stageThree.
+- cleaned code form classes keyboardManager, stageManager, uploadManager, testApp
+- added stageFour class
+
+v.0.3.0
+- fixed problems with reset action
+- cleaned code in testApp class
+
+v.0.3.1
+- added reset button on gameOver and finish stage
+- implemented stageFour class
+- added setStatustext on stageManager class
+
+v.0.3.2
+- fixed problem restart
+- fixed problem third stage after restart
+- added change key color when pressed
+
+v.0.3.3
+- added message loading
+- fixed problem restart. Go to intro stage ones
+
+v.0.3.4
+- included method get in ofxiWebUploader class
+
+v.0.3.5
+- changed method post. Added get xml method after post score.
+- removed space key
