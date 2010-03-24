@@ -122,3 +122,6 @@ v.0.3.5
 v.0.3.6
 - XML parser implementation and Clock fix
 - WORKS ONLY WITH MEMO FORK (poco) and GLU MODIFIED
+
+v.0.3.7
+- deleted SCREENSHOT button from reset menu

@@ -287,12 +287,10 @@ void testApp::resetOption(resetMenuType option){
 			break;
 		case CONTINUE:
 			resetPressed = false;
-			//clockUp->cont();
 			break;
 		case SCREEN:
-			resetPressed = false;
-			printScreen = true;
-			//clockUp->cont();
+			//resetPressed = false;
+			//printScreen = true;
 			break;
 		default:
 			break;	
