@@ -118,3 +118,7 @@ v.0.3.4
 v.0.3.5
 - changed method post. Added get xml method after post score.
 - removed space key
+
+v.0.3.6
+- XML parser implementation and Clock fix
+- WORKS ONLY WITH MEMO FORK (poco) and GLU MODIFIED
